@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+	<title>Hello world!</title>
+	<style >
+		body{
+			background-color: #1f1f2e;
+
+		}
+		nav {
+  			display: block;
+  			text-align: center;
+  			color: #f2f2f2;
+  			padding: 14px 16px;
+  			text-decoration: none;
+  			font-size: 25px;
+
+		}
+
+		header, footer {
+			font-size:25px;
+			color: white;
+		}
+
+		h1 {
+			color: red;
+			text-align: center;
+
+		}
+		p {
+			text-align: center;
+			font-family: georgia;
+			background-color: grey;
+			font-size:30px;
+
+		}
+		#ul {
+			background-color: silver;
+			font-family: arial;
+			font-size: 20px;
+			margin: 100px;
+			border: 10px dashed black;
+			padding: 10px;
+
+
+		}
+
+
+	</style>
+
+	</head>
+
+	<body>
+		<header> 
+			<img src="https://lh3.googleusercontent.com/-8XILR3Ug1Og/XzPK_c0JLHI/AAAAAAAALR4/b2sTYSU8YiMYrVYFDmtqQH8R7tClC56CgCK8BGAsYHg/s0/2020-08-12.jpg" alt="my pic" width="130" height="180">
+
+			<br>
+
+			<nav>
+			<a href="/html/">HTML </a> |
+ 			<a href="/css/">CSS </a> |
+  			<a href="/js/">JavaScript </a> |
+ 			<a href="/python/">Python </a> |		
+ 			</nav>
+
+		</header>
+
+		<h1> Hello World! </h1>
+		<p onclick="alert('hi')"> This is A Test Web Site!
+		 </p>
+		 <div id="ul">
+		This some tips to have a good life:
+		<ul>
+			<li> Eat healthy food(do not eat &lt; you need &amp;	&gt; you require). </li>
+			<li> Make a sport excercises. </li>
+			<li> Do not enter yourself at&nbsp;others&nbsp;lifes. </li>
+		</ul>
+		</div>   
+
+
+		 <footer>
+		 		Ahmad	Shaaban	&copy;	Copyright 2020
+		 </footer>
+	</body>
+
+</html>
